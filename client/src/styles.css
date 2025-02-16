@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 .tab-panel {
-    border: 1px solid #ddd;
+    border: 1px solid;
     padding: 10px;
     border-radius: 4px;
   }
@@ -39,9 +39,8 @@
   
   .member-tabset > .tab-content {
     margin-top: -3px;
-    background-color: #fff;
     border: 0;
-    border-top: 1px solid #eee;
+    border-top: 1px solid;
     padding: 15px 0;
   }
   
