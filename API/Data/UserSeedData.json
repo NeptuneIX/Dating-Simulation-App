@@ -108,7 +108,7 @@
     "Country": "Laos",
     "Photos": [
       {
-        "Url": "https://randomuser.me/api/portraits/women/62.jpg",
+        "Url": "https://randomuser.me/api/portraits/men/62.jpg",
         "IsMain": true
       }
     ]
@@ -127,7 +127,7 @@
     "Country": "Nicaragua",
     "Photos": [
       {
-        "Url": "https://randomuser.me/api/portraits/women/24.jpg",
+        "Url": "https://randomuser.me/api/portraits/men/24.jpg",
         "IsMain": true
       }
     ]
@@ -146,7 +146,7 @@
     "Country": "Belize",
     "Photos": [
       {
-        "Url": "https://randomuser.me/api/portraits/women/36.jpg",
+        "Url": "https://randomuser.me/api/portraits/men/36.jpg",
         "IsMain": true
       }
     ]
@@ -165,7 +165,7 @@
     "Country": "Yugoslavia",
     "Photos": [
       {
-        "Url": "https://randomuser.me/api/portraits/women/55.jpg",
+        "Url": "https://randomuser.me/api/portraits/men/55.jpg",
         "IsMain": true
       }
     ]
@@ -184,7 +184,7 @@
     "Country": "Peru",
     "Photos": [
       {
-        "Url": "https://randomuser.me/api/portraits/women/5.jpg",
+        "Url": "https://randomuser.me/api/portraits/men/5.jpg",
         "IsMain": true
       }
     ]
