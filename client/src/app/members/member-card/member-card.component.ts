@@ -13,7 +13,7 @@ import { faEnvelope, faHeart, faUser } from '@fortawesome/free-solid-svg-icons';
 })
 export class MemberCardComponent {
   faUser = faUser;
-  faHeart = faHeart;
+  faHeart = faHeart; 
   faEnvelope = faEnvelope;
   member = input.required<Member>();
 

@@ -21,7 +21,7 @@ export class AppComponent implements OnInit {
   users: any; 
 
   ngOnInit(): void {
-    this.getUsers();
+    // this.getUsers();
     this.setCurrentUser();
   }
 
