@@ -29,6 +29,7 @@ export class MembersService {
   getMembers() {
     const userParams = this.userParams();
     const response = this.memberCache.get(Object.values(userParams).join('-'));
+    console.log(userParams);
 
     if(response) return setPaginatedResponse(response, this.paginatedResult);
 
@@ -37,8 +38,8 @@ export class MembersService {
     let params = setPaginationHeaders(userParams.pageNumber, userParams.pageSize);
 
     params = params.append('minAge', userParams.minAge);
-    params = params.append('maxAge', userParams.minAge);
-    params = params.append('gender', userParams.minAge);
+    params = params.append('maxAge', userParams.maxAge);
+    params = params.append('gender', userParams.gender);
     params = params.append('orderBy', userParams.orderBy);
 
     return this.http.get<Member[]>(this.baseUrl + 'users', {observe: 'response', params})
@@ -58,7 +59,7 @@ export class MembersService {
 
     if(member) return of(member);
 
-    return this.http.get<Member>(this.baseUrl + 'user/' + username);
+    return this.http.get<Member>(this.baseUrl + 'users/' + username);
   }
   updateMember(member: Member) {
     return this.http.put(this.baseUrl + 'users', member).pipe(

@@ -35,7 +35,6 @@ namespace API.Controllers
             if (user == null) return NotFound();
 
             return user;
-
         }
 
         [HttpPut]
